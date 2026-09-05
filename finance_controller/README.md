@@ -45,18 +45,6 @@ never into the ledger's own internal logic.
 | `.env.example` | Copy to `.env` for your `ANTHROPIC_API_KEY` (optional). |
 
 Running the pipeline creates a `data/` folder with every CSV listed above.
-
----
-
-## Quick start
-
-```bash
-pip install -r requirements.txt
-
-python generate_data.py   # -> data/*.csv (100 orders, one coherent money trail)
-python reconcile.py       # -> data/matches.csv, data/exceptions.csv
-python evaluate.py        # -> scorecard printed + data/metrics.json
-python agent_explain.py "Why is EXC-004 unresolved?"
 ```
 
 `generate_data.py` prints the injected case mix (for your own sanity-check —
@@ -196,21 +184,6 @@ doesn't appear in any case returns:
 > 'Rs 350.0'."
 
 rather than a guess.
-
----
-
-## Demo script
-
-1. **Clean exact match** — `python agent_explain.py "explain MATCH-001"`
-2. **Variance match** — `python agent_explain.py "explain EXC-008"` (`SETTLEMENT_VARIANCE`)
-3. **Duplicate/ambiguous case** — find a `DUPLICATE_BANK_ENTRY` or
-   `PAYMENT_STATE_AMBIGUITY` row in `exceptions.csv` and explain it.
-4. **A settlement/refund exception** — any `MISSING_OR_DELAYED_SETTLEMENT`
-   or `REFUND_RECONCILIATION_EXCEPTION` row.
-5. **AI investigation** — `python agent_explain.py "give me a summary of exceptions"`
-6. **A question the AI correctly refuses** —
-   `python agent_explain.py "Why did Razorpay charge exactly Rs 350?"`
-
 ---
 
 ## Razorpay documentation this data model is based on
