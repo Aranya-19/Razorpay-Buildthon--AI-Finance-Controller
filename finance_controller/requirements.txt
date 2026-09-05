@@ -1,2 +1,7 @@
-pandas>=2.0.0
-anthropic>=0.40.0
+TRACK 04 - AI FINANCE CONTROLLER
+
+Build an agent that closes one finance-ops loop across a 50+ record batch of synthetic data, reporting its match rate and the exceptions it could not resolve.
+The 2026 builder consensus: verification capacity, not generation speed, is the bottleneck. Reconciliation, settlement and forecasting are still done by hand.
+
+Example Directions:  Multi-source reconciliation; Settlement Q&A agent; Forward cash forecaster; Tax-line matcher
+The Bar : Throughput plus measured accuracy plus an honest exception list. One cherry-picked match proves nothing.
