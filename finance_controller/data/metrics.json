@@ -1,0 +1,43 @@
+{
+  "total_ledger_entities": 117,
+  "auto_match_precision": 1.0,
+  "false_reconciliation_rate": 0.0,
+  "exception_detection_recall": 1.0,
+  "resolution_rate": 0.5299,
+  "unresolved_count": 39,
+  "unresolved_rupee_value": 99514.72,
+  "human_review_count": 16,
+  "human_review_value": 34707.28,
+  "by_payment_method": {
+    "CARD": {
+      "total": 29,
+      "auto_resolved": 18,
+      "resolution_rate": 0.6207,
+      "needs_attention": 11
+    },
+    "EMI": {
+      "total": 24,
+      "auto_resolved": 9,
+      "resolution_rate": 0.375,
+      "needs_attention": 15
+    },
+    "NETBANKING": {
+      "total": 30,
+      "auto_resolved": 14,
+      "resolution_rate": 0.4667,
+      "needs_attention": 16
+    },
+    "UPI": {
+      "total": 14,
+      "auto_resolved": 7,
+      "resolution_rate": 0.5,
+      "needs_attention": 7
+    },
+    "WALLET": {
+      "total": 20,
+      "auto_resolved": 14,
+      "resolution_rate": 0.7,
+      "needs_attention": 6
+    }
+  }
+}

@@ -1,0 +1,118 @@
+entity_id,case_type,true_bank_txn_id,expected_decision,notes
+setl_H8xIZM1JRcoreo,DELAYED_SETTLEMENT,TXN4296237088,HUMAN_REVIEW,Matching credit found 6 days after the 2-day settlement window.
+setl_aSQHqNgAC72qFl,CLEAN_MATCH,TXN0988308904,AUTO_RESOLVE,Original settlement leg is clean; only the refund leg is exceptional.
+rfnd_eVVhDIq2AnHTmt,REFUND_EXCEPTION,,EXCEPTION,No bank debit found for this refund in the current statement window.
+setl_1Id9Z850kEnydx,CLEAN_MATCH,TXN5570558190,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_jZRL9OaYsP6ihg,CLEAN_MATCH,TXN2076275400,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_Wg21nYCsXoblu1,CLEAN_MATCH,TXN1473653527,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_PFX7TOrPMf7otY,CLEAN_MATCH,TXN6888728645,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_dzHzmA4KR1Vxav,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_bjhPInRVkLUhY7,CLEAN_MATCH,TXN8619734353,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_Rra6fSEVQOEXfn,CLEAN_MATCH,TXN1157124795,AUTO_RESOLVE,Original settlement leg is clean; only the refund leg is exceptional.
+rfnd_rgmolaHr8IRh1E,REFUND_EXCEPTION,,EXCEPTION,No bank debit found for this refund in the current statement window.
+setl_oqXKXmhnjqidXK,CLEAN_MATCH,TXN6026850785,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_EBdqir2EbNXSta,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_URYxPY8EcFK12B,CLEAN_MATCH,TXN8833778006,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_jBvKNAp0mxDoJJ,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_DeUnPPy0Ifyqhw,CLEAN_MATCH,TXN6476100912,AUTO_RESOLVE,Original settlement leg is clean; only the refund leg is exceptional.
+rfnd_Hyx6RHKT2OZM6r,REFUND_EXCEPTION,TXN5827752995,HUMAN_REVIEW,Bank debit found by amount/date only; its reference does not match the ledger's refund reference.
+setl_fLerNHu9GCLgR0,CLEAN_MATCH,TXN3190800785,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_Rtva1JyiNbUnAv,CLEAN_MATCH,TXN4271426460,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_5f0pKGytvukFhF,CLEAN_MATCH,TXN7477495668,AUTO_RESOLVE,Original settlement leg is clean; only the refund leg is exceptional.
+rfnd_MjeBsrdFtCdZe1,REFUND_EXCEPTION,,EXCEPTION,No bank debit found for this refund in the current statement window.
+setl_OPhRfINuhR694f,CLEAN_MATCH,TXN5575686511,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_FhfjBFZf4Y25zy,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_GF9IyDN8pbWvTM,CLEAN_MATCH,TXN0742010959,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_BBT4MANXdPzFUj,CLEAN_MATCH,TXN3401332901,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_bIwXILft9SGVZe,DELAYED_SETTLEMENT,TXN8531929520,HUMAN_REVIEW,Matching credit found 5 days after the 2-day settlement window.
+setl_QjzCvi1t9vyVFg,CLEAN_MATCH,TXN7119484034,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_mFFciuDCLFuMk9,DELAYED_SETTLEMENT,TXN8652695204,HUMAN_REVIEW,Matching credit found 10 days after the 2-day settlement window.
+setl_lpIn8srmRtv5Xq,SETTLEMENT_VARIANCE,TXN2596165265,HUMAN_REVIEW,"Bank credit differs from ledger by 24.62 rupees, unexplained by fee/tax."
+setl_U2rcsL5uCNG3iF,CLEAN_MATCH,TXN6443409490,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_QKWGGw4gZ3mHk0,DELAYED_SETTLEMENT,TXN7387503099,HUMAN_REVIEW,Matching credit found 7 days after the 2-day settlement window.
+setl_jl2VbOM63oeKBP,CLEAN_MATCH,TXN5782895425,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_xLceXKPnm4s4nl,CLEAN_MATCH,TXN3384877323,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_z0oRaFxMPMDEaI,DELAYED_SETTLEMENT,TXN6237094262,HUMAN_REVIEW,Matching credit found 6 days after the 2-day settlement window.
+setl_USyekoZy3uUi9S,SETTLEMENT_VARIANCE,TXN3946606770,EXCEPTION,"Bank credit differs from ledger by 381.52 rupees, unexplained by fee/tax."
+setl_jkrsWw6SEMCiay,CLEAN_MATCH,TXN1337697327,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_YK4gpPkLINO7uX,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_OyT2BAanrRXJXH,CLEAN_MATCH,TXN1689563213,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_HkCUVIhhWZwZcS,CLEAN_MATCH,TXN7285376112,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_UR2CEK10f8NR0X,CLEAN_MATCH,TXN0680914949,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_wsxY2NPeILkvnU,CLEAN_MATCH,TXN6267290882,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_AyNHjfe58juKVO,DELAYED_SETTLEMENT,TXN1771957711,HUMAN_REVIEW,Matching credit found 6 days after the 2-day settlement window.
+setl_p4tZJhPdnFcy21,CLEAN_MATCH,TXN7757190566,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_TtqemWKjkCzH7m,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_6d5ASExAv4rBjM,CLEAN_MATCH,TXN5037473532,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_IIl92EtEfonGa4,PAYMENT_STATE_AMBIGUITY,TXN6972513617,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_7x6ygsij6X7Ok8,PAYMENT_STATE_AMBIGUITY,TXN6972513617,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_ExHgD1OQke0st7,CLEAN_MATCH,TXN1811216772,AUTO_RESOLVE,Original settlement leg is clean; only the refund leg is exceptional.
+rfnd_rodJ0jwAsPLmbk,REFUND_EXCEPTION,,EXCEPTION,No bank debit found for this refund in the current statement window.
+setl_98YhA9A9MZp44e,CLEAN_MATCH,TXN5799512534,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_4zEGxdXeRzWGJk,CLEAN_MATCH,TXN2449453828,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_gFP0xOLsgd9N1q,CLEAN_MATCH,TXN6924307517,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_3F1xsd0imzJ4Ct,CLEAN_MATCH,TXN7066493013,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_kwOc2pHd9PObQz,SETTLEMENT_VARIANCE,TXN2746789341,EXCEPTION,"Bank credit differs from ledger by 128.75 rupees, unexplained by fee/tax."
+setl_37qTxvhyCZQDA2,CLEAN_MATCH,TXN6887844840,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_nNzoCXB1BhEOgz,CLEAN_MATCH,TXN2456467172,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_AK5W4QkYgOLt2z,SETTLEMENT_VARIANCE,TXN2623696956,EXCEPTION,"Bank credit differs from ledger by 265.72 rupees, unexplained by fee/tax."
+setl_IoWXrP5y78tIap,DELAYED_SETTLEMENT,TXN4909710221,HUMAN_REVIEW,Matching credit found 7 days after the 2-day settlement window.
+setl_8aPB4MM7Qt46xH,CLEAN_MATCH,TXN9500678415,AUTO_RESOLVE,Original settlement leg is clean; only the refund leg is exceptional.
+rfnd_R8WO6UjCufdXIJ,REFUND_EXCEPTION,TXN1375916977,HUMAN_REVIEW,Bank debit found by amount/date only; its reference does not match the ledger's refund reference.
+setl_uhOgM3tBMsKJwt,CLEAN_MATCH,TXN3516881528,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_7TDwnEdwcm4wDC,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_iF3jk5Gz8N2TY6,SETTLEMENT_VARIANCE,TXN2312854104,EXCEPTION,"Bank credit differs from ledger by 357.18 rupees, unexplained by fee/tax."
+setl_lRWJhaOQtwjOp1,CLEAN_MATCH,TXN3778674612,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_RMPwO8fryPzmaR,SETTLEMENT_VARIANCE,TXN5531525724,HUMAN_REVIEW,"Bank credit differs from ledger by 25.73 rupees, unexplained by fee/tax."
+setl_mT2mmpMjg5PPMV,CLEAN_MATCH,TXN2507455361,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_aAi3NHtEp1cgkn,CLEAN_MATCH,TXN6565923574,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_yf6DdVG9gMf5yo,CLEAN_MATCH,TXN5195547846,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_MGXMRqOGqleigC,CLEAN_MATCH,TXN0024743600,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_dP8oAaXKyp8KQQ,CLEAN_MATCH,TXN1435638703,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_QVjrztfOc6lbgl,CLEAN_MATCH,TXN9846378870,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_90zNZuoHxIUwC7,SETTLEMENT_VARIANCE,TXN0412822355,EXCEPTION,"Bank credit differs from ledger by 395.06 rupees, unexplained by fee/tax."
+setl_P98UJfAWjuDUHq,CLEAN_MATCH,TXN2465143136,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_Px4GpdmRqC6eOP,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_QzJAtLBiOKQmiQ,CLEAN_MATCH,TXN8103993786,AUTO_RESOLVE,Original settlement leg is clean; only the refund leg is exceptional.
+rfnd_Tjlib9MLLKobeW,REFUND_EXCEPTION,TXN7687395567,HUMAN_REVIEW,Bank debit found by amount/date only; its reference does not match the ledger's refund reference.
+setl_BlKSmCpQ4XShhB,CLEAN_MATCH,TXN1817437461,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_rORJI7UwcVu3YV,CLEAN_MATCH,TXN5076774825,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_J7ZmZ5DDcijC13,CLEAN_MATCH,TXN7018335161,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_1htc02u3gVUbVN,CLEAN_MATCH,TXN5529851385,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_M4yRPW2CbDvCkV,CLEAN_MATCH,TXN5933857475,AUTO_RESOLVE,Original settlement leg is clean; only the refund leg is exceptional.
+rfnd_oPe5JEKCIYk7eg,REFUND_EXCEPTION,,EXCEPTION,No bank debit found for this refund in the current statement window.
+setl_zAnkiI0wzr2haO,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_HJM4HaC4Juv8sk,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_TvNUhkysUUHxRD,CLEAN_MATCH,TXN4983206377,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_RpC6N5rA4VukeW,CLEAN_MATCH,TXN7269710524,AUTO_RESOLVE,Original settlement leg is clean; only the refund leg is exceptional.
+rfnd_3jN5PqR4JF6EB0,REFUND_EXCEPTION,TXN6863067117,HUMAN_REVIEW,Bank debit found by amount/date only; its reference does not match the ledger's refund reference.
+setl_4YgLZdYhKMdmuZ,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_MWvaohGfwVHnVO,PAYMENT_STATE_AMBIGUITY,TXN1637307832,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_uXVcT5kWEh3SKu,PAYMENT_STATE_AMBIGUITY,TXN1637307832,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_nDCaA2pAn5643z,CLEAN_MATCH,TXN6423290614,AUTO_RESOLVE,Original settlement leg is clean; only the refund leg is exceptional.
+rfnd_JK8CiRl2MRaMxQ,REFUND_EXCEPTION,TXN5677877738,HUMAN_REVIEW,Bank debit found by amount/date only; its reference does not match the ledger's refund reference.
+setl_Q5DATblbXZGuJO,CLEAN_MATCH,TXN2812961511,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_XT5ugDcQhbMnwu,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_7Ufz4zISUilxIc,CLEAN_MATCH,TXN8446212907,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_RwHviirWz5knFZ,CLEAN_MATCH,TXN0361495913,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_vjFToJgJanlr3H,PAYMENT_STATE_AMBIGUITY,TXN6394528108,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_nog9hgiVRIcuhr,PAYMENT_STATE_AMBIGUITY,TXN6394528108,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_9FjChEo6bTZEbl,PAYMENT_STATE_AMBIGUITY,TXN7814337545,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_HYHbV92hB0BckO,PAYMENT_STATE_AMBIGUITY,TXN7814337545,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_buC1J3qRK9xyJY,CLEAN_MATCH,TXN8520942708,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_TdmCoUV0z14N0q,PAYMENT_STATE_AMBIGUITY,TXN2098683882,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_4mqbWrINcSWd3t,PAYMENT_STATE_AMBIGUITY,TXN2098683882,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_SYb7L0P6QWoIt7,CLEAN_MATCH,TXN2289687408,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_XtDTqQZXmzl262,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_OfD28ynxALeId5,SETTLEMENT_VARIANCE,TXN5259813511,HUMAN_REVIEW,"Bank credit differs from ledger by 27.91 rupees, unexplained by fee/tax."
+setl_E01hf1lkFq3KK8,CLEAN_MATCH,TXN9810864950,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_LwfwmByqLfAwlN,PAYMENT_STATE_AMBIGUITY,TXN7835707478,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_Xs9QspAJI4FFzC,PAYMENT_STATE_AMBIGUITY,TXN7835707478,ABSTAIN,Two ledger settlement entries share one bank reference; only one bank credit exists.
+setl_filYRlbDio01Hf,CLEAN_MATCH,TXN8331844457,AUTO_RESOLVE,Original settlement leg is clean; only the refund leg is exceptional.
+rfnd_9cyFS541odbJIq,REFUND_EXCEPTION,TXN4912604114,HUMAN_REVIEW,Bank debit found by amount/date only; its reference does not match the ledger's refund reference.
+setl_WL1gIFkhmwTRVE,DUPLICATE_BANK_ENTRY,,ABSTAIN,Two bank credits equally match one settlement entry; cannot tell which (if either) is a duplicate deposit.
+setl_R3WzmscuSTh9rf,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_Zfd3DBwGKGyqEA,MISSING_SETTLEMENT,,EXCEPTION,No bank credit exists for this settlement in the current statement window.
+setl_uxZZiiNVPjTfMM,CLEAN_MATCH,TXN3660957957,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
+setl_lSsgi3p63doLoF,DUPLICATE_BANK_ENTRY,,ABSTAIN,Two bank credits equally match one settlement entry; cannot tell which (if either) is a duplicate deposit.
+setl_CLaQOaD3Pz3RVH,CLEAN_MATCH,TXN7604942029,AUTO_RESOLVE,"Exact reference, exact amount, on-time credit."
