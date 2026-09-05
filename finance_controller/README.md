@@ -82,7 +82,7 @@ behaviour is testable and demo-safe even with no network/API access.
 
 ---
 
-## The four exception scenarios (+ one bonus)
+## The Exception scenarios
 
 All five are handled by the **same** controller (`reconcile.py`) — they are
 exception *classes*, not separate products.
@@ -93,7 +93,7 @@ exception *classes*, not separate products.
 | `MISSING_OR_DELAYED_SETTLEMENT` | Settlement exists in the ledger but the bank credit is absent or very late. | No bank row at all, **or** a bank row 5–10 days past the settlement window. |
 | `REFUND_RECONCILIATION_EXCEPTION` | Refund exists but the bank-side debit is missing or under a different reference. | No debit row, **or** a debit with a scrambled acquirer reference. |
 | `PAYMENT_STATE_AMBIGUITY` | Two ledger entries plausibly claim one bank credit (e.g. a duplicated `settlement.processed` webhook). | Two settlement rows, same UTR/amount, one real bank credit. |
-| `DUPLICATE_BANK_ENTRY` *(bonus)* | One ledger entry, two equally-plausible bank credits. | One settlement row, two identical bank credits. |
+| `DUPLICATE_BANK_ENTRY` | One ledger entry, two equally-plausible bank credits. | One settlement row, two identical bank credits. |
 
 ---
 
